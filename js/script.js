@@ -38,7 +38,7 @@ console.log(user);
 delete user.isAdmin;
 console.log(user);
 
-//when adding multiword property it  must be quoted
+//when adding multiword property it  must be quoted +[]
 
 let bob ={
     name : "bob",
@@ -53,7 +53,7 @@ let key = "likes birds";
 
 bob[key] = true;
 
-console.log(bob);
+console.log(bob); // "likes birds" = true
 
 // a property that is calculated at run time
 
