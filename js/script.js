@@ -108,7 +108,3 @@ for(key in obj){
 }
 
 
-// exercice
-
-
-
