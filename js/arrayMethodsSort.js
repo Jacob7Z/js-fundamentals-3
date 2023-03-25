@@ -23,12 +23,24 @@ names.sort(len_compare);
 console.log(names);
 
 
-// sorting number numerically
+// sorting number numerically  "using a custom function"
 
+var priceList = [1000,50,2,7,14];
 
+// sort() using function expression
+// ascending order
 
+priceList.sort(function(a,b){
+    return a-b;
+});
 
+console.log("ascending " + priceList);
 
+// sort() with arrow function
+// descending order
+
+priceList.sort((a,b) => b-a); // after => comes the return value of the arrow funcion
+console.log("descending " + priceList);
 
 
 
