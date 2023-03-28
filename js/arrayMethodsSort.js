@@ -1,5 +1,7 @@
 
 // sort()
+// sort changes the original array
+
 
 let farr = [23,45,65,102,"b","D",'A',"coc"];
 
@@ -9,7 +11,6 @@ let sortedOb = farr.sort();
 console.log(farr);
 console.log(sortedOb);
 
-// sort changes the original array
 
 // sorting using custom function
 
