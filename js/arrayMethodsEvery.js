@@ -1,6 +1,6 @@
 // every() 
 
-// the every method if all array elements pass the given test function
+// the every method checks if all array elements pass the given test function
 
 // function that checks wether the age is 18 or above
 
@@ -25,7 +25,7 @@ function checkEven(num){
     return num % 2 === 0;
 }
 
-const numbers = [2,4,6,,7,8];
+const numbers = [2,4,6,7,8];
 
 let check2= numbers.every(checkEven);
 
@@ -38,4 +38,6 @@ let nums = [1,2,3,4];
 // use arrow function with every()
 
 let result = nums.every(element => element < 6);
-console.log(result);
+console.log(result); // true
+
+
